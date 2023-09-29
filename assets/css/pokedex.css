@@ -146,6 +146,22 @@
     border-radius: 1rem;
 }
 
+#close {
+    position: absolute;
+    border-radius: 50%;
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    right: 0px;
+    top: -0px;
+    cursor: pointer;
+  }
+
+li {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
